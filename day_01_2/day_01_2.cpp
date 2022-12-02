@@ -27,8 +27,8 @@ int total_sum_from_list(std::vector<int> calories_list, int top_n)
 }
 
 
-int main(void) {
-
+int main(void) 
+{
     std::string filepath = "input.txt";
     if (std::filesystem::exists(filepath)) 
     {

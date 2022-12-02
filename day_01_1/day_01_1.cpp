@@ -10,8 +10,8 @@
 #include <string>
 #include <sstream>
 
-int main(void) {
-
+int main(void) 
+{
     std::string filepath = "input.txt";
     if (std::filesystem::exists(filepath)) 
     {
