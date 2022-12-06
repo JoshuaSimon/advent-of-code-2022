@@ -1,7 +1,7 @@
 /*
     Advent of Code 2022 - Day 3, Part 2 - Joshua Simon.
     Compile and run this program with 
-    clang++ day_03_1.cpp -std=c++20 && ./a.out
+    clang++ day_03_2.cpp -std=c++20 && ./a.out
 */
 
 #include <iostream>
@@ -17,7 +17,6 @@ std::string find_duplicates(std::string string_1, std::string string_2)
     {
         if (string_2.find(c) != std::string::npos)
         {   
-            //result.append(c);
             result += c;
         }
     }
